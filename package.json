@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-draw-react",
+  "version": "1.0.0",
+  "description": "Shared configuration for React (TypeScript) in draw projects.",
+  "author": "Yuki Shimizu",
+  "license": "MIT",
+  "repository": "drawinc/eslint-config-draw-react",
+  "bugs": "https://github.com/drawinc/eslint-config-draw-react/issues",
+  "homepage": "https://github.com/drawinc/eslint-config-draw-react#README",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.22.0",
+    "@typescript-eslint/parser": "5.22.0",
+    "eslint": "8.15.0",
+    "eslint-config-draw": "github:drawinc/eslint-config-draw",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.15.0",
+    "eslint-config-draw": "github:drawinc/eslint-config-draw"
+  }
+}
